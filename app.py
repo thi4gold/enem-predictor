@@ -47,7 +47,7 @@ if modelos is not None:
         ], format_func=lambda x: x[1], index=2)
         
         escola = st.selectbox("🏫 Tipo de Escola:", [
-            (1, "Não Respondeu"),
+            (1, "Privada"),
             (2, "Pública")
         ], format_func=lambda x: x[1], index=1)
         
