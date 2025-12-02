@@ -50,6 +50,7 @@ if modelos is not None:
             (1, "Privada"),
             (2, "Pública")
         ], format_func=lambda x: x[1], index=1)
+
         
         raca = st.selectbox("🧑 Cor/Raça:", [
             (0, "Não declarado"),
